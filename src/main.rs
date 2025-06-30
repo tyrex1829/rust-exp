@@ -55,16 +55,81 @@
 
 // conditions
 
+// fn main () {
+//     let number = 7;
+
+//     if number < 5 {
+//         println!("true")
+//     } else {
+//         println!("false")
+//     }
+
+//     let condition = true;
+//     let check = if condition {5} else {6};
+//     println!("value is: {check}")
+// }
+
+// Loops -> loop, while, for
+
 fn main () {
-    let number = 7;
 
-    if number < 5 {
-        println!("true")
-    } else {
-        println!("false")
-    }
+    // loop
+    // loop {
+    //     println!("again");
+    //     break;
+    // }
 
-    let condition = true;
-    let check = if condition {5} else {6};
-    println!("value is: {check}")
+    // let mut counter = 0;
+    // let res = loop {
+    //     counter += 1;
+    //     if counter == 10 {
+    //         break counter * 2;
+    //     }
+    // };
+    // println!("The res is {res}");
+
+    // let mut count = 0;
+    // 'counting_up: loop {
+    //     println!("count = {count}");
+    //     let mut remaining = 10;
+
+    //     loop {
+    //         println!("remaining = {remaining}");
+    //         if remaining == 9 {
+    //             break;
+    //         }
+    //         if count == 2 {
+    //             break 'counting_up;
+    //         }
+    //         remaining -= 1;
+    //     }
+    //     count += 1;
+    // }
+    // println!("End count = {count}");
+
+    // while
+//     let mut number = 3;
+//     while number != 0 {
+//         println!("{number}!");
+
+//         number -= 1;
+//     }
+//     println!("LOFTOF!!");
+
+//     let a = [10, 20, 30];
+//     let mut i = 0;
+//     while i < a.len() {
+//         println!("value: {}", a[i]);
+//         i += 1;
+//     }
+
+// for
+let  a = [10, 20, 30];
+for e in a {
+    println!("value: {e}")
+}
+for n in (1..4).rev() {
+    println!("{n}")
+}
+println!("hey")
 }

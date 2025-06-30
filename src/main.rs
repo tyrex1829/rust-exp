@@ -22,32 +22,49 @@
 //     return n % 2 == 0;
 // }
 
+// functions 
 
-fn main() {
-    let mut x = 5;
-    println!("The value of x is: {x}");
+// fn main() {
+//     let mut x = 5;
+//     println!("The value of x is: {x}");
 
-    x = 6;
-    println!("The value of x is: {x}");
+//     x = 6;
+//     println!("The value of x is: {x}");
 
-    another_fn(5, 'T');
+//     another_fn(5, 'T');
 
-    let y = five();
-    println!("The vale of x is: {y}");
+//     let y = five();
+//     println!("The vale of x is: {y}");
 
-    let z = plus_one(5);
-    println!("The vale of z is: {z}");
+//     let z = plus_one(5);
+//     println!("The vale of z is: {z}");
 
-}
+// }
 
-fn another_fn (x: i32, c: char) {
-    println!("Another fn: {x}{c}")
-}
+// fn another_fn (x: i32, c: char) {
+//     println!("Another fn: {x}{c}")
+// }
 
-fn five () -> i32 {
-    5
-}
+// fn five () -> i32 {
+//     5
+// }
 
-fn plus_one (x: i32) -> i32 {
-    x + 1
+// fn plus_one (x: i32) -> i32 {
+//     x + 1
+// }
+
+// conditions
+
+fn main () {
+    let number = 7;
+
+    if number < 5 {
+        println!("true")
+    } else {
+        println!("false")
+    }
+
+    let condition = true;
+    let check = if condition {5} else {6};
+    println!("value is: {check}")
 }

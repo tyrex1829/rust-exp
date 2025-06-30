@@ -29,4 +29,25 @@ fn main() {
 
     x = 6;
     println!("The value of x is: {x}");
+
+    another_fn(5, 'T');
+
+    let y = five();
+    println!("The vale of x is: {y}");
+
+    let z = plus_one(5);
+    println!("The vale of z is: {z}");
+
+}
+
+fn another_fn (x: i32, c: char) {
+    println!("Another fn: {x}{c}")
+}
+
+fn five () -> i32 {
+    5
+}
+
+fn plus_one (x: i32) -> i32 {
+    x + 1
 }
